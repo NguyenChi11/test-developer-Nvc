@@ -1,0 +1,2 @@
+[environments.development]
+store = "https://test-developer-nvc.myshopify.com/"
