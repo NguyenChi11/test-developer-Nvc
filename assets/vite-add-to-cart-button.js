@@ -1,0 +1,1 @@
+import{j as a,c as d,r as e}from"./vite-client.js";function n({variantId:t}){return a.jsxs("button",{children:["Add ",t," to cart"]})}const r=document.getElementById("add-to-cart-button");if(r){const t=r.dataset.variantId,o=r.dataset.productTitle;t&&o&&d.createRoot(r).render(a.jsx(e.StrictMode,{children:a.jsx(n,{variantId:Number.parseInt(t),productTitle:o})}))}
